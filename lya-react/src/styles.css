@@ -339,11 +339,14 @@ html{
     }
 
     .ul-container {
-    display: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ul-container.show {
+        display: flex;
     }
 
     .ul-container li:not(:last-child) {
@@ -352,24 +355,34 @@ html{
     }
 
     .ul-container li {
-    margin: 10px 0;
+        margin: 10px 0;
     }
 
     .menu-toggle {
-    display: block;
-    margin: 10px;
-    float: left;
+        display: block;
+        margin: 10px;
+        float: left;
+        cursor: pointer;
+    }
+
+    .menu-toggle .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        background-color: #333;
+        transition: all 0.3s ease-in-out;
     }
 
     .menu-toggle.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
     }
 
     .menu-toggle.active .bar:nth-child(2) {
-    opacity: 0;
+        opacity: 0;
     }
 
     .menu-toggle.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
     }
 }
