@@ -11,7 +11,7 @@ export const NavBar = () => {
             <img src={logo} alt=""/>
         </div>
         <ul className="ul1">
-            <li><TelephoneFill className="icon"/>5263-2076</li>
+            <li><TelephoneFill className="icon"/>011 5263-2076</li>
             <li><Whatsapp className="icon"/>11 3824-5735</li>
             <li><Envelope className="icon"/>lombardi.agustin@tateresa.edu.ar</li>
         </ul>

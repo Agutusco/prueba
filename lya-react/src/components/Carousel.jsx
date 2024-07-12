@@ -37,7 +37,7 @@ const Carousel = () => {
             </div>
             <button className="btn-carousel">
                 <a href="https://www.argenprop.com/lombardi-y-asociados" target="_blank" rel="noopener noreferrer">
-                    Visitar
+                    Busca tu propiedad
                 </a>
             </button>
         </div>
