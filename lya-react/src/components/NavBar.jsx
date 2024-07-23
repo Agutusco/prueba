@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "../assets/logo.jpg"
+import logo from "../assets/logoFinal.jpg"
 import '../styles.css'
 import { TelephoneFill, Whatsapp, Envelope } from 'react-bootstrap-icons';
 
@@ -7,7 +7,7 @@ export const NavBar = () => {
     return (
         <>
         <nav className="nav1">
-                    <div>
+        <div>
             <img src={logo} alt=""/>
         </div>
         <ul className="ul1">
