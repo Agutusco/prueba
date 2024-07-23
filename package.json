@@ -1,6 +1,7 @@
 {
   "name": "lya-react",
   "private": true,
+  "homepage": "https://agutusco.github.io/prueba/dist",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
