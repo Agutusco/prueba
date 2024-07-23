@@ -39,7 +39,7 @@
 }
 
 nav img{
-    width: 400px;
+    width: 350px;
     height: 100px;
     margin: 10px;
 }
@@ -178,6 +178,14 @@ a{
     width: 100%;
 }
 
+.form-container-tasaciones .icono,
+.form-container-contacto .icono{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px
+}
 
 form{
     width: 200px;
@@ -196,7 +204,7 @@ form div{
 /* FOOTER */
 
 footer{
-    margin-top: 80px;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     background-color: #d1dbe0;
